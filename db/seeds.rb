@@ -5,6 +5,6 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
-Post.create!(content: "Semoga rindu menjadi titik temu, untuk kita selalu bertemu.", category: "Sad")
-Post.create!(content: "Aku tenggelam dalam kedua bola matanya yang indah.", category: "Happiness")
-Post.create!(content: "Sejauh mana aku mengejar?", category: "Useless")
+Post.create!(content: "Semoga rindu menjadi titik temu, untuk kita selalu bertemu.", category: 1)
+Post.create!(content: "Aku tenggelam dalam kedua bola matanya yang indah.", category: 2)
+Post.create!(content: "Sejauh mana aku mengejar?", category: 0)
